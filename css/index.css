@@ -1,0 +1,272 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@200;500;800&display=swap");
+
+* {
+  list-style: none;
+  color: #222222;
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+#wrap {
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* header */
+header {
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #bbcde5;
+  margin-bottom: 50px;
+}
+
+header * {
+  text-align: center;
+  margin: 30px;
+}
+
+header h1 {
+  font-size: 4em;
+}
+
+header h2 {
+  color: #1c5d99;
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+
+.introduce {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.introduce p {
+  font-size: 1.1em;
+  text-align: justify;
+  line-height: 1.3em;
+  white-space: pre-line;
+}
+
+/* main */
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+section h3 {
+  font-size: 2em;
+  color: #1c5d99;
+  border-bottom: 1px solid #bbcde5;
+  margin-bottom: 30px;
+}
+
+.two_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.two_section section {
+  flex: 0 0 45%;
+}
+
+/* main - skills */
+.skills div {
+  margin: 10px 20px 40px 20px;
+}
+
+.skills div span {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #639fab;
+}
+
+.skills div ul {
+  margin: 20px;
+}
+
+.skills div ul li {
+  display: inline-block;
+  border-radius: 15px;
+  line-height: 15px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: #bbcde5;
+}
+
+/* main - contact */
+.contact ul {
+  margin: 20px;
+}
+
+.contact ul li {
+  margin-bottom: 30px;
+}
+
+.contact ul li span {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #639fab;
+  /* color: #bbcde5; */
+}
+
+/* main - education */
+.education ul,
+.certi ul {
+  margin-left: 20px;
+}
+
+.education ul li {
+  margin-bottom: 40px;
+}
+
+.education ul li p {
+  margin-bottom: 15px;
+}
+
+.education ul li p:first-child {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.education ul li p:last-child {
+  font-size: 0.9em;
+  color: #636363;
+}
+
+/* main - certi */
+
+.certi ul li {
+  list-style: disc;
+  margin-bottom: 20px;
+}
+
+/* main - projects */
+.guide {
+  color: rgb(77, 77, 77);
+  margin: 20px;
+}
+
+.team_pjt {
+  margin-bottom: 100px;
+}
+
+.projects h4 {
+  font-size: 1.6em;
+  color: #639fab;
+  margin: 50px 20px 20px;
+}
+.projects ul li {
+  display: flex;
+  margin-bottom: 50px;
+  padding: 20px;
+  box-shadow: 2px 2px 2px 2px rgb(208, 208, 208);
+  border-radius: 5px;
+}
+
+.pjt_info {
+  align-self: center;
+}
+
+.pjt_info * {
+  text-align: center;
+}
+
+.pjt_info h5 {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pjt_info p:nth-child(2) {
+  color: rgb(103, 103, 103);
+  margin-bottom: 20px;
+}
+
+.pjt_info .pjt_lang {
+  margin-bottom: 50px;
+}
+
+.pjt_info .pjt_lang span {
+  display: inline-block;
+  border-radius: 15px;
+  line-height: 15px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: #bbcde5;
+}
+
+.pjt_overview p {
+  width: 60%;
+  margin: 0 auto 30px;
+  font-size: 1.1em;
+  /* font-weight: bold; */
+  text-align: justify;
+}
+
+.projects ul li .pjt_block {
+  flex: 0 0 50%;
+}
+
+.projects ul li img {
+  width: 80%;
+}
+
+/* training course */
+.training h4 {
+  font-size: 1.3em;
+  margin: 10px 20px;
+  /* color: #639fab; */
+}
+
+.training p {
+  color: rgb(103, 103, 103);
+  font-size: 0.9em;
+  margin: 20px;
+}
+
+.training ul {
+  margin-left: 60px;
+}
+.training ul li {
+  list-style: circle;
+  margin-bottom: 10px;
+}
+
+/* Work Experience */
+.working h4 {
+  font-size: 1.3em;
+  margin: 10px 20px;
+  /* color: #639fab; */
+}
+
+.school {
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+
+.school li {
+  margin: 15px 0px;
+}
+
+.school li span {
+  color: rgb(103, 103, 103);
+  font-size: 0.9em;
+}
+
+.contents ul {
+  margin-left: 60px;
+}
+
+.contents li {
+  list-style: circle;
+  margin-bottom: 10px;
+}
+
+/* footer */
+footer div {
+  margin: 100px auto 0;
+  text-align: center;
+}

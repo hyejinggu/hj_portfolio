@@ -1,0 +1,140 @@
+* {
+  list-style: none;
+  color: #222222;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#wrap {
+  margin: 20px auto;
+  padding: 20px;
+}
+
+header {
+  margin: 50px 0 100px;
+}
+
+header h1 {
+  color: #222222;
+  font-size: 3em;
+  margin: 0 auto;
+  border-bottom: 4px solid #bbcde5;
+  padding-bottom: 50px;
+  width: 80%;
+}
+
+/* 서비스 소개 및 프로젝트 개요 */
+.overview,
+.ui_back {
+  margin-top: 150px;
+}
+
+.service h1,
+.overview h1,
+.ui_back h1 {
+  color: #1c5d99;
+  margin: 20px auto;
+  font-size: 2.3em;
+}
+.service h2,
+.overview h2 {
+  color: #639fab;
+  text-align: left;
+  margin: 20px 30px;
+  font-size: 1.8em;
+}
+
+.container,
+.container_three {
+  display: flex;
+  border-bottom: 2px dotted #bbcde5;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+}
+
+.container div {
+  flex: 0 0 50%;
+}
+.container_three div {
+  flex: 0 0 33%;
+}
+
+.container div img,
+.container_three div img {
+  width: 95%;
+}
+
+/* UI 기술 상세 */
+video {
+  max-width: 80%;
+  display: block;
+  margin: 20px auto;
+}
+
+.user section {
+  display: grid;
+  grid-template-columns: 3fr 6fr;
+}
+
+.user section div:first-child {
+  align-self: center;
+  padding-left: 50px;
+}
+
+.ui_back h2,
+.ui_back h3 {
+  text-align: left;
+  margin: 20px 30px;
+}
+
+.ui_back h2:first-of-type {
+  color: #639fab;
+  border-bottom: 2px solid #bbcde5;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  font-size: 1.8em;
+}
+
+.ui_back h3 {
+  font-size: 1.5em;
+}
+
+.ui_back h3::before {
+  content: "⭐️ ";
+}
+
+.ui_back h3::after {
+  content: " ⭐️";
+}
+
+.page_container {
+  border-bottom: 2px solid #bbcde5;
+}
+
+.page_container section h4 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.page_container section div p {
+  margin-bottom: 5px;
+  text-align: justify;
+}
+
+.page_container section div p::before {
+  content: "📌 ";
+}
+
+.member_page section,
+.item_page section,
+.commu_page section {
+  border-bottom: 2px dotted #bbcde5;
+  padding: 20px;
+}
+
+.member_page section:last-child,
+.item_page section:last-child,
+.commu_page section:last-child {
+  border-bottom: none;
+}
