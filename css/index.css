@@ -39,7 +39,7 @@ header h2 {
 
 .introduce {
   margin: 0 auto;
-  width: 50%;
+  width: 60%;
 }
 
 .introduce p {
@@ -65,6 +65,7 @@ section h3 {
 .two_section {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .two_section section {
@@ -93,6 +94,7 @@ section h3 {
   padding: 5px 10px;
   margin-right: 5px;
   background-color: #bbcde5;
+  margin-bottom: 10px;
 }
 
 /* main - contact */
@@ -180,6 +182,11 @@ section h3 {
   margin-bottom: 10px;
 }
 
+.pjt_info span {
+  /* line-height: 1.1em; */
+  margin-bottom: 10px;
+}
+
 .pjt_info p:nth-child(2) {
   color: rgb(103, 103, 103);
   margin-bottom: 20px;
@@ -202,14 +209,13 @@ section h3 {
   width: 60%;
   margin: 0 auto 30px;
   font-size: 1.1em;
-  /* font-weight: bold; */
   text-align: justify;
+  word-break: break-all;
 }
 
 .pjt_overview a {
   display: inline-block;
   padding: 5px 10px;
-  color: #6DA4AA;
   color: #647D87;
   font-weight: bold;
   text-decoration: none;
@@ -221,6 +227,15 @@ section h3 {
   transition: 0.3s;
 }
 
+.pjt_block {
+  padding: 20px 0;
+}
+
+.pjt_block a {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
 
 .pjt_block img:hover {
   padding: 5px;

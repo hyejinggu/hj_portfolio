@@ -1,0 +1,46 @@
+* {
+    font-size: 12px;
+}
+
+.introduce {
+    width: 100%;
+}
+
+.two_section section {
+    flex: 0 0 90%;
+}
+
+.projects ul li,
+.page_container section {
+    display: block;
+}
+
+.pjt_block,
+.pjt_lang,
+.pjt_overview p {
+    width: 100%;
+}
+
+/* 백엔드 프로젝트 시연 영상 */
+.container,
+.container_three {
+  flex-wrap: wrap;
+}
+
+.container div,
+.container_three div {
+    flex: 0 0 95%;
+    justify-self: center;
+}
+
+.pjt_video video {
+    max-width: 100%;
+}
+
+.subject section {
+    padding: 20px 0px;
+}
+
+.page_container div:not(.pjt_video) {
+    width: 80%;
+}
