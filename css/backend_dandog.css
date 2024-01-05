@@ -72,12 +72,23 @@ video {
   margin: 20px auto;
 }
 
+.user,
+.manager {
+  margin-bottom: 150px;
+}
+
 .user section {
   display: grid;
   grid-template-columns: 3fr 6fr;
 }
 
-.user section div:first-child {
+.manager section {
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+}
+
+.user section div:first-child,
+.manager section div:nth-child(2) {
   align-self: center;
   padding-left: 50px;
 }
@@ -88,13 +99,13 @@ video {
   margin: 20px 30px;
 }
 
-.ui_back h2:first-of-type {
+.ui_back h2 {
   color: #639fab;
-  border-bottom: 2px solid #bbcde5;
   padding-bottom: 20px;
   margin-top: 50px;
   font-size: 1.8em;
 }
+
 
 .ui_back h3 {
   font-size: 1.5em;
@@ -112,6 +123,10 @@ video {
   border-bottom: 2px solid #bbcde5;
 }
 
+.page_container:first-of-type {
+  border-top: 2px solid #bbcde5
+}
+
 .page_container section h4 {
   font-size: 1.2em;
   margin-bottom: 20px;
@@ -126,15 +141,11 @@ video {
   content: "📌 ";
 }
 
-.member_page section,
-.item_page section,
-.commu_page section {
+.subject section {
   border-bottom: 2px dotted #bbcde5;
   padding: 20px;
 }
 
-.member_page section:last-child,
-.item_page section:last-child,
-.commu_page section:last-child {
+.subject section:last-child {
   border-bottom: none;
 }
