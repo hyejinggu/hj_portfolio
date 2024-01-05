@@ -80,7 +80,7 @@
       </div>
 
       <div class="ui_back">
-        <h1>🛠️ UI 기술 상세</h1>
+        <h1>🛠️ UI &#8226; 기술 상세</h1>
         <h2>사용자 페이지</h2>
         <div class="user">
           <div class="page_container">
@@ -113,8 +113,11 @@
               <div>
                 <h4>로그인</h4>
                 <p>
-                  PasswordEncoder를 사용하여 서버에 암호화되어 저장된 패스워드와
+                  PasswordEncoder를 사용하여 DB에 암호화되어 저장된 패스워드와
                   비교
+                </p>
+                <p>
+                  아이디 저장 기능 구현
                 </p>
               </div>
               <div class="pjt_video">
@@ -126,7 +129,8 @@
             <section>
               <div>
                 <h4>아이디 찾기</h4>
-                <p>메인 페이지에 대한 설명!!</p>
+                <p>사용자가 입력한 정보를 DB에 저장된 정보와 비교</p>
+                <p>모든 정보가 일치할 경우에만 모달 창에 사용자 아이디 노출</p>
               </div>
               <div class="pjt_video">
                 <video controls>
@@ -137,7 +141,9 @@
             <section>
               <div>
                 <h4>비밀번호 찾기</h4>
-                <p>메인 페이지에 대한 설명!!</p>
+                <p>사용자가 입력한 ID와 정보를 DB에 저장된 정보와 비교</p>
+                <p>사용자가 가입 시 입력한 메일 주소로 영어 대소문자, 숫자가 랜덤 혼합된 임시 비밀번호 전송</p>
+                <p>JavaMailSender 사용</p>
               </div>
               <div class="pjt_video">
                 <video controls>
@@ -148,7 +154,9 @@
             <section>
               <div>
                 <h4>회원정보 수정 및 탈퇴</h4>
-                <p>메인 페이지에 대한 설명!!</p>
+                <p>회원정보 수정에서 비밀번호 변경의 경우 기존 비밀번호, 새로운 비밀번호, 비밀번호 확인이 모두 일치해야 함.</p>
+                <p>새로운 비밀번호와 비밀번호 확인은 React로 확인 후 다를 경우 화면에 에러 메세지 표시</p>
+                <p>기존 비밀번호는 서버에서 확인</p>
               </div>
               <div class="pjt_video">
                 <video controls>
@@ -163,7 +171,10 @@
             <section>
               <div>
                 <h4>상품 목록 페이지</h4>
-                <p>메인 페이지에 대한 설명!!</p>
+                <p>검색, 정렬, 페이지네이션 구현</p>
+                <p>DB에 저장된 정보를 꺼낼 때 'order by' 조건을 다르게 주어 인기순, 높은가격순, 낮은가격순, 최신순으로 정렬되도록 구성</p>
+                <p>검색 시에도 모든 정렬 조건 중복 적용 가능</p>
+                <p>페이지 우측에 최근 본 아이템 최근 3개까지 노출</p>
               </div>
               <div class="pjt_video">
                 <video controls>
@@ -174,7 +185,9 @@
             <section>
               <div>
                 <h4>장바구니 페이지</h4>
-                <p>메인 페이지에 대한 설명!!</p>
+                <p>DB에서 해당 상품의 컬러와 사이즈 정보를 모두 가져와 화면에 표시</p>
+                <p>해당 상품의 옵션들을 바꿀 때마다 장바구니 DB의 정보를 업데이트하여 바꾼 옵션이 저장되도록 함</p>
+                <p>선택 주문할 경우 선택된 상품의 정보를 결제 페이지로 넘김</p>
               </div>
               <div class="pjt_video">
                 <video controls>
@@ -235,6 +248,7 @@
           <section></section>
         </div>
       </div>
+      <a href="#wrap">위로</a>
     </div>
   </body>
 </html>

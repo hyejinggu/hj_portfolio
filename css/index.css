@@ -206,6 +206,28 @@ section h3 {
   text-align: justify;
 }
 
+.pjt_overview a {
+  display: inline-block;
+  padding: 5px 10px;
+  color: #6DA4AA;
+  color: #647D87;
+  font-weight: bold;
+  text-decoration: none;
+  white-space: pre-line;
+}
+
+.pjt_overview a:hover {
+  color: #fcc630;
+  transition: 0.3s;
+}
+
+
+.pjt_block img:hover {
+  padding: 5px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
 .projects ul li .pjt_block {
   flex: 0 0 50%;
 }
