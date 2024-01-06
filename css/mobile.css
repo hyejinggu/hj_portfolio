@@ -1,5 +1,5 @@
 * {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .introduce {
@@ -44,6 +44,7 @@
 .user section div:first-child,
 .manager section div:nth-child(2) {
   padding-left: 0;
+  margin: 0 auto;
 }
 
 .page_container div:not(.pjt_video) {

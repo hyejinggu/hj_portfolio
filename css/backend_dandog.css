@@ -11,17 +11,29 @@
   padding: 20px;
 }
 
-header {
-  margin: 50px 0 100px;
+header ul {
+  position: fixed;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  
+  top: 0;
+  width: 70%;
+}
+
+header ul li {
+  font-size: 1.5em;
+  background-color: antiquewhite;
+  padding: 10px;
+  background-color: #1c5d99;
+  color: white;
 }
 
 header h1 {
   color: #222222;
   font-size: 3em;
-  margin: 0 auto;
   border-bottom: 4px solid #bbcde5;
   padding-bottom: 50px;
   width: 80%;
+  margin: 100px auto;
 }
 
 /* 서비스 소개 및 프로젝트 개요 */
@@ -110,6 +122,7 @@ video {
 
 .ui_back h3 {
   font-size: 1.5em;
+  margin-bottom: 30px;
 }
 
 .ui_back h3::before {
@@ -131,6 +144,11 @@ video {
 .page_container section h4 {
   font-size: 1.2em;
   margin-bottom: 20px;
+}
+
+.page_container section h5 {
+  text-align: left;
+  margin: 20px 10px 10px;
 }
 
 .page_container section div p {
