@@ -16,15 +16,21 @@ header ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);  
   top: 0;
-  width: 70%;
+  width: 100%;
 }
 
 header ul li {
   font-size: 1.5em;
   background-color: antiquewhite;
-  padding: 10px;
+  padding: 0.7em 0px;
   background-color: #1c5d99;
   color: white;
+  cursor: pointer;
+}
+
+header ul li:hover {
+  font-weight: bold;
+  background-color:  #2668a6;
 }
 
 header h1 {
@@ -33,7 +39,7 @@ header h1 {
   border-bottom: 4px solid #bbcde5;
   padding-bottom: 50px;
   width: 80%;
-  margin: 100px auto;
+  margin: 150px auto 100px;
 }
 
 /* 서비스 소개 및 프로젝트 개요 */
@@ -167,4 +173,9 @@ video {
 
 .subject section:last-child {
   border-bottom: none;
+}
+
+.page_up img {
+  width: 60px;
+  cursor: pointer;
 }

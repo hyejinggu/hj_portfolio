@@ -303,7 +303,16 @@ section h3 {
 }
 
 /* footer */
-footer div {
+footer {
   margin: 100px auto 0;
   text-align: center;
+}
+
+.page_up {
+  margin-bottom: 50px;
+}
+
+.page_up img {
+  width: 60px;
+  cursor: pointer;
 }
