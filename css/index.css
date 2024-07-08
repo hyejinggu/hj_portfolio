@@ -285,21 +285,41 @@ section h3 {
 }
 
 .school li {
-  margin: 15px 0px;
+  margin: 15px 0;
 }
 
-.school li span {
+.school li span,
+.role_detail li span {
   color: rgb(103, 103, 103);
   font-size: 0.9em;
 }
 
-.contents ul {
-  margin-left: 60px;
+.contents ul,
+.company div {
+  margin-left: 50px;
 }
 
 .contents li {
   list-style: circle;
   margin-bottom: 10px;
+}
+
+.company {
+  margin-bottom: 50px;
+}
+
+.role_detail {
+  margin-bottom: 30px;
+}
+
+.role_detail li {
+  margin-bottom: 10px;
+}
+
+
+.role_detail li ul li {
+  margin-left: 40px;
+  list-style: square;
 }
 
 /* footer */
