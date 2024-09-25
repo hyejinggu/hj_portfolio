@@ -263,8 +263,8 @@ section h3 {
   margin: 10px 20px;
 }
 
-.activity:first-of-type {
-  margin-bottom: 50px;
+.activity {
+  margin-bottom: 40px;
 }
 
 .training p,
