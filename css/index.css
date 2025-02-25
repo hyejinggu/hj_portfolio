@@ -306,9 +306,12 @@ section h3 {
   font-size: 0.9em;
 }
 
-.contents ul,
-.company div {
+.contents ul {
   margin-left: 50px;
+}
+
+.company div {
+  margin-left: 30px;
 }
 
 .contents li {
@@ -339,6 +342,11 @@ section h3 {
 .role_detail li ul li {
   margin-left: 40px;
   list-style: square;
+}
+
+.company .project_title {
+  font-size: 1.5em;
+  /* margin-left: 20px; */
 }
 
 /* footer */
