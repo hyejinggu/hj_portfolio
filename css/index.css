@@ -205,12 +205,21 @@ section h3 {
   background-color: #bbcde5;
 }
 
-.pjt_overview p {
+.pjt_overview div {
   width: 60%;
   margin: 0 auto 30px;
   font-size: 1.1em;
-  text-align: justify;
   word-break: break-all;
+}
+
+.pjt_overview div p:first-child {
+  text-align: justify;
+}
+
+.pjt_overview div p:nth-child(2) {
+  text-align: justify;
+  font-style: italic;
+  font-size: 0.8em;
 }
 
 .pjt_overview a {
