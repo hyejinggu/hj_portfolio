@@ -15,6 +15,34 @@
 #wrap {
   margin: 20px auto;
   padding: 20px;
+  padding-top: 0;
+  margin-top: 10px;
+}
+
+/* navigation */
+.navigate-container ul {
+  display: flex;
+}
+
+.navigate-container ul li {
+  height: 60px;
+  flex: 1;
+  text-align: center;
+  background-color: #bbcde5;
+  line-height: 60px;
+  border-right: 1px solid;
+  margin-bottom: 10px;
+}
+
+.navigate-bar {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navigate-container ul li:last-child {
+  border-right: none;
 }
 
 /* header */
@@ -186,21 +214,22 @@ section h3 {
 }
 
 /* main - skills */
-.skills div {
+#skills div {
   margin: 10px 20px 40px 20px;
 }
 
-.skills div span {
+
+#skills div span {
   font-size: 1.2em;
   font-weight: bold;
   color: #639fab;
 }
 
-.skills div ul {
+#skills div ul {
   margin: 20px;
 }
 
-.skills div ul li {
+#skills div ul li {
   display: inline-block;
   border-radius: 15px;
   line-height: 15px;
@@ -228,25 +257,25 @@ section h3 {
 }
 
 /* main - education */
-.education ul,
+#education ul,
 .certi ul {
   margin-left: 20px;
 }
 
-.education ul li {
+#education ul li {
   margin-bottom: 40px;
 }
 
-.education ul li p {
+#education ul li p {
   margin-bottom: 15px;
 }
 
-.education ul li p:first-child {
+#education ul li p:first-child {
   font-size: 1.1em;
   font-weight: bold;
 }
 
-.education ul li p:last-child {
+#education ul li p:last-child {
   font-size: 0.9em;
   color: #636363;
 }
@@ -268,12 +297,12 @@ section h3 {
   margin-bottom: 100px;
 }
 
-.projects h4 {
+#projects h4 {
   font-size: 1.6em;
   color: #639fab;
   margin: 50px 20px 20px;
 }
-.projects ul li {
+#projects ul li {
   display: flex;
   margin-bottom: 50px;
   padding: 20px;
@@ -365,11 +394,11 @@ section h3 {
   transition: 0.3s;
 }
 
-.projects ul li .pjt_block {
+#projects ul li .pjt_block {
   flex: 0 0 50%;
 }
 
-.projects ul li img {
+#projects ul li img {
   width: 80%;
 }
 
@@ -407,7 +436,7 @@ section h3 {
 }
 
 /* Work Experience */
-.working h4 {
+#working h4 {
   font-size: 1.3em;
   margin: 10px 20px;
   color: #639fab;

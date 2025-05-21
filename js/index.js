@@ -7,6 +7,35 @@ window.onload = function () {
     });
   }
 
+  // 네비게이션 이동
+  const navLinks = document.querySelectorAll('.navigate-bar');
+  navLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault(); // 기본 앵커 동작 방지
+
+      // 대상 요소의 ID 가져오기
+      const targetId = this.getAttribute('href');
+      const targetElement = document.querySelector(targetId);
+      
+      // 대상 요소가 존재하면 스크롤
+      if (targetElement) {
+        // 스크롤 위치 계산 (네비게이션 바 높이 고려)
+        const navHeight = document.querySelector('.navigate-container').offsetHeight;
+        const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - navHeight + 50;
+        
+        // 부드러운 스크롤 적용
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth'
+        });
+        
+        // 활성 링크 스타일 적용
+        navLinks.forEach(link => link.classList.remove('active'));
+        this.classList.add('active');
+      }
+    })
+  })
+
   // 아이콘 애니메이션
   const techIcons = document.querySelectorAll('.tech-icon');
   
