@@ -364,25 +364,26 @@ section h3 {
   font-size: 0.8em;
 }
 
-.pjt_overview a {
+.pjt_link {
   display: inline-block;
   padding: 5px 10px;
   color: #647D87;
-  font-weight: bold;
-  text-decoration: none;
+  /* font-weight: bold; */
+  /* text-decoration: none; */
   white-space: pre-line;
-  animation: colorPulse 2s infinite alternate;
-  transition: background-color 0.3s ease;
+  font-style: oblique;
+  /* animation: colorPulse 2s infinite alternate;
+  transition: background-color 0.3s ease; */
 }
 
-@keyframes colorPulse {
+/* @keyframes colorPulse {
   0%   { color: #647D87; }
   100% { color: #fcc630; }
 }
 
 .pjt_overview a:hover {
   color: #fcc630;
-}
+} */
 
 .pjt_block {
   padding: 20px 0;
