@@ -20,6 +20,14 @@
 }
 
 /* navigation */
+.navigate-container {
+  position: fixed;
+  top: 0;               
+  left: 0;              
+  width: 100%;    
+  z-index: 10;        
+}
+
 .navigate-container ul {
   display: flex;
 }
@@ -50,6 +58,7 @@ header {
   padding: 15px;
   border-radius: 10px;
   border: 2px solid #bbcde5;
+  margin-top: 80px;
   margin-bottom: 50px;
   position: relative;
   overflow: hidden;
@@ -193,7 +202,8 @@ header h2 {
 /* main */
 section {
   padding: 20px;
-  margin-bottom: 20px;
+  padding-top: 50px;
+  margin-top: 20px;
 }
 
 section h3 {
